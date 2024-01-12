@@ -1,52 +1,29 @@
-﻿<!-- START SECTION BANNER -->
+﻿@model IEnumerable<Slider> 
+
+<!-- START SECTION BANNER -->
+
 <div class="banner_section slide_medium shop_banner_slider staggered-animation-wrap">
     <div id="carouselExampleControls" class="carousel slide carousel-fade light_arrow" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item background_bg active" data-img-src="assets/images/banner16.jpg">
-                <div class="banner_slide_content banner_content_inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-7 col-10">
-                                <div class="banner_content overflow-hidden">
-                                    <h2 class="staggered-animation" data-animation="slideInLeft" data-animation-delay="0.5s">LED 75 INCH F58</h2>
-                                    <h5 class="mb-3 mb-sm-4 staggered-animation font-weight-light" data-animation="slideInLeft" data-animation-delay="1s">Get up to <span class="text_default">50%</span> off Today Only!</h5>
-                                    <a class="btn btn-fill-out staggered-animation text-uppercase" href="shop-left-sidebar.html" data-animation="slideInLeft" data-animation-delay="1.5s">Shop Now</a>
+            @foreach (Slider slider in Model)
+            {
+                
+                <div class="carousel-item background_bg active" data-img-src="assets/images/@slider.BgImage">
+                    <div class="banner_slide_content banner_content_inner">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-7 col-10">
+                                    <div class="banner_content overflow-hidden">
+                                        <h2 class="staggered-animation" data-animation="slideInLeft" data-animation-delay="0.5s">@slider.Title</h2>
+                                        <h5 class="mb-3 mb-sm-4 staggered-animation font-weight-light" data-animation="slideInLeft" data-animation-delay="1s">@slider.Description</h5>
+                                        <a class="btn btn-fill-out staggered-animation text-uppercase" href="@slider.URL" data-animation="slideInLeft" data-animation-delay="1.5s">Shop Now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-item background_bg" data-img-src="assets/images/banner17.jpg">
-                <div class="banner_slide_content banner_content_inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-10">
-                                <div class="banner_content overflow-hidden">
-                                    <h2 class="staggered-animation" data-animation="slideInLeft" data-animation-delay="0.5s">Smart Phones</h2>
-                                    <h5 class="mb-3 mb-sm-4 staggered-animation font-weight-light" data-animation="slideInLeft" data-animation-delay="1s"><span class="text_default">50%</span> off in all products</h5>
-                                    <a class="btn btn-fill-out staggered-animation text-uppercase" href="shop-left-sidebar.html" data-animation="slideInLeft" data-animation-delay="1.5s">Shop Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item background_bg" data-img-src="assets/images/banner18.jpg">
-                <div class="banner_slide_content banner_content_inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-10">
-                                <div class="banner_content overflow-hidden">
-                                    <h2 class="staggered-animation" data-animation="slideInLeft" data-animation-delay="0.5s">Beat Headphone</h2>
-                                    <h5 class="mb-3 mb-sm-4 staggered-animation font-weight-light" data-animation="slideInLeft" data-animation-delay="1s">Taking your Viewing Experience to Next Level</h5>
-                                    <a class="btn btn-fill-out staggered-animation text-uppercase" href="shop-left-sidebar.html" data-animation="slideInLeft" data-animation-delay="1.5s">Shop Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            }
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev"><i class="ion-chevron-left"></i></a>
         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next"><i class="ion-chevron-right"></i></a>
@@ -63,21 +40,21 @@
                 <div class="col-md-4">
                     <div class="sale-banner mb-3 mb-md-4">
                         <a class="hover_effect1" href="#">
-                            <img src="assets/images/shop_banner_img7.jpg" alt="shop_banner_img7">
+                            <img src="~/assets/images/shop_banner_img7.jpg" alt="shop_banner_img7">
                         </a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="sale-banner mb-3 mb-md-4">
                         <a class="hover_effect1" href="#">
-                            <img src="assets/images/shop_banner_img8.jpg" alt="shop_banner_img8">
+                            <img src="~/assets/images/shop_banner_img8.jpg" alt="shop_banner_img8">
                         </a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="sale-banner mb-3 mb-md-4">
                         <a class="hover_effect1" href="#">
-                            <img src="assets/images/shop_banner_img9.jpg" alt="shop_banner_img9">
+                            <img src="~/assets/images/shop_banner_img9.jpg" alt="shop_banner_img9">
                         </a>
                     </div>
                 </div>
@@ -102,7 +79,7 @@
                         <div class="item">
                             <div class="categories_box">
                                 <a href="#">
-                                    <img src="assets/images/cat_img1.png" alt="cat_img1" />
+                                    <img src="~/assets/images/cat_img1.png" alt="cat_img1" />
                                     <span>Television</span>
                                 </a>
                             </div>
@@ -110,7 +87,7 @@
                         <div class="item">
                             <div class="categories_box">
                                 <a href="#">
-                                    <img src="assets/images/cat_img2.png" alt="cat_img2" />
+                                    <img src="~/assets/images/cat_img2.png" alt="cat_img2" />
                                     <span>Mobile</span>
                                 </a>
                             </div>
@@ -118,7 +95,7 @@
                         <div class="item">
                             <div class="categories_box">
                                 <a href="#">
-                                    <img src="assets/images/cat_img3.png" alt="cat_img3" />
+                                    <img src="~/assets/images/cat_img3.png" alt="cat_img3" />
                                     <span>Headphone</span>
                                 </a>
                             </div>
@@ -126,7 +103,7 @@
                         <div class="item">
                             <div class="categories_box">
                                 <a href="#">
-                                    <img src="assets/images/cat_img4.png" alt="cat_img4" />
+                                    <img src="~/assets/images/cat_img4.png" alt="cat_img4" />
                                     <span>Watch</span>
                                 </a>
                             </div>
@@ -134,7 +111,7 @@
                         <div class="item">
                             <div class="categories_box">
                                 <a href="#">
-                                    <img src="assets/images/cat_img5.png" alt="cat_img5" />
+                                    <img src="~/assets/images/cat_img5.png" alt="cat_img5" />
                                     <span>Game</span>
                                 </a>
                             </div>
@@ -142,7 +119,7 @@
                         <div class="item">
                             <div class="categories_box">
                                 <a href="#">
-                                    <img src="assets/images/cat_img6.png" alt="cat_img6" />
+                                    <img src="~/assets/images/cat_img6.png" alt="cat_img6" />
                                     <span>Camera</span>
                                 </a>
                             </div>
@@ -150,7 +127,7 @@
                         <div class="item">
                             <div class="categories_box">
                                 <a href="#">
-                                    <img src="assets/images/cat_img7.png" alt="cat_img7" />
+                                    <img src="~/assets/images/cat_img7.png" alt="cat_img7" />
                                     <span>Audio</span>
                                 </a>
                             </div>
@@ -198,8 +175,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img1.jpg" alt="el_img1">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img1.jpg" alt="el_hover_img1">
+                                                <img src="~/assets/images/el_img1.jpg" alt="el_img1">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img1.jpg" alt="el_hover_img1">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -235,8 +212,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img2.jpg" alt="el_img2">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img2.jpg" alt="el_hover_img2">
+                                                <img src="~/assets/images/el_img2.jpg" alt="el_img2">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img2.jpg" alt="el_hover_img2">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -273,8 +250,8 @@
                                         <span class="pr_flash">New</span>
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img3.jpg" alt="el_img3">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img3.jpg" alt="el_hover_img3">
+                                                <img src="~/assets/images/el_img3.jpg" alt="el_img3">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img3.jpg" alt="el_hover_img3">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -307,8 +284,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img4.jpg" alt="el_img4">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img4.jpg" alt="el_hover_img4">
+                                                <img src="~/assets/images/el_img4.jpg" alt="el_img4">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img4.jpg" alt="el_hover_img4">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -344,8 +321,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img5.jpg" alt="el_img5">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img5.jpg" alt="el_hover_img5">
+                                                <img src="~/assets/images/el_img5.jpg" alt="el_img5">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img5.jpg" alt="el_hover_img5">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -382,8 +359,8 @@
                                         <span class="pr_flash bg-danger">Hot</span>
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img6.jpg" alt="el_img6">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img6.jpg" alt="el_hover_img6">
+                                                <img src="~/assets/images/el_img6.jpg" alt="el_img6">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img6.jpg" alt="el_hover_img6">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -423,8 +400,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img7.jpg" alt="el_img7">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img7.jpg" alt="el_hover_img7">
+                                                <img src="~/assets/images/el_img7.jpg" alt="el_img7">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img7.jpg" alt="el_hover_img7">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -461,8 +438,8 @@
                                         <span class="pr_flash bg-danger">Hot</span>
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img8.jpg" alt="el_img8">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img8.jpg" alt="el_hover_img8">
+                                                <img src="~/assets/images/el_img8.jpg" alt="el_img8">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img8.jpg" alt="el_hover_img8">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -498,8 +475,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img9.jpg" alt="el_img9">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img9.jpg" alt="el_hover_img9">
+                                                <img src="~/assets/images/el_img9.jpg" alt="el_img9">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img9.jpg" alt="el_hover_img9">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -536,8 +513,8 @@
                                         <span class="pr_flash bg-success">Sale</span>
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img10.jpg" alt="el_img10">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img10.jpg" alt="el_hover_img10">
+                                                <img src="~/assets/images/el_img10.jpg" alt="el_img10">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img10.jpg" alt="el_hover_img10">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -573,8 +550,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img11.jpg" alt="el_img11">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img11.jpg" alt="el_hover_img11">
+                                                <img src="~/assets/images/el_img11.jpg" alt="el_img11">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img11.jpg" alt="el_hover_img11">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -610,8 +587,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img12.jpg" alt="el_img12">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img12.jpg" alt="el_hover_img12">
+                                                <img src="~/assets/images/el_img12.jpg" alt="el_img12">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img12.jpg" alt="el_hover_img12">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -652,8 +629,8 @@
                                         <span class="pr_flash bg-danger">Hot</span>
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img8.jpg" alt="el_img8">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img8.jpg" alt="el_hover_img8">
+                                                <img src="~/assets/images/el_img8.jpg" alt="el_img8">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img8.jpg" alt="el_hover_img8">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -689,8 +666,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img4.jpg" alt="el_img4">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img4.jpg" alt="el_hover_img4">
+                                                <img src="~/assets/images/el_img4.jpg" alt="el_img4">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img4.jpg" alt="el_hover_img4">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -726,8 +703,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img11.jpg" alt="el_img11">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img11.jpg" alt="el_hover_img11">
+                                                <img src="~/assets/images/el_img11.jpg" alt="el_img11">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img11.jpg" alt="el_hover_img11">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -763,8 +740,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img1.jpg" alt="el_img1">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img1.jpg" alt="el_hover_img1">
+                                                <img src="~/assets/images/el_img1.jpg" alt="el_img1">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img1.jpg" alt="el_hover_img1">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -800,8 +777,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img7.jpg" alt="el_img7">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img7.jpg" alt="el_hover_img7">
+                                                <img src="~/assets/images/el_img7.jpg" alt="el_img7">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img7.jpg" alt="el_hover_img7">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -838,8 +815,8 @@
                                         <span class="pr_flash bg-danger">Hot</span>
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img6.jpg" alt="el_img6">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img6.jpg" alt="el_hover_img6">
+                                                <img src="~/assets/images/el_img6.jpg" alt="el_img6">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img6.jpg" alt="el_hover_img6">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -879,8 +856,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img2.jpg" alt="el_img2">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img2.jpg" alt="el_hover_img2">
+                                                <img src="~/assets/images/el_img2.jpg" alt="el_img2">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img2.jpg" alt="el_hover_img2">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -916,8 +893,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img5.jpg" alt="el_img5">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img5.jpg" alt="el_hover_img5">
+                                                <img src="~/assets/images/el_img5.jpg" alt="el_img5">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img5.jpg" alt="el_hover_img5">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -953,8 +930,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img9.jpg" alt="el_img9">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img9.jpg" alt="el_hover_img9">
+                                                <img src="~/assets/images/el_img9.jpg" alt="el_img9">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img9.jpg" alt="el_hover_img9">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -990,8 +967,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img7.jpg" alt="el_img7">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img7.jpg" alt="el_hover_img7">
+                                                <img src="~/assets/images/el_img7.jpg" alt="el_img7">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img7.jpg" alt="el_hover_img7">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -1027,8 +1004,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img5.jpg" alt="el_img5">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img5.jpg" alt="el_hover_img5">
+                                                <img src="~/assets/images/el_img5.jpg" alt="el_img5">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img5.jpg" alt="el_hover_img5">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -1064,8 +1041,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="assets/images/el_img12.jpg" alt="el_img12">
-                                                <img class="product_hover_img" src="assets/images/el_hover_img12.jpg" alt="el_hover_img12">
+                                                <img src="~/assets/images/el_img12.jpg" alt="el_img12">
+                                                <img class="product_hover_img" src="~/assets/images/el_hover_img12.jpg" alt="el_hover_img12">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">
@@ -1112,7 +1089,7 @@
                 <div class="col-12">
                     <div class="sale-banner mb-3 mb-md-4">
                         <a class="hover_effect1" href="#">
-                            <img src="assets/images/shop_banner_img11.png" alt="shop_banner_img11">
+                            <img src="~/assets/images/shop_banner_img11.png" alt="shop_banner_img11">
                         </a>
                     </div>
                 </div>
@@ -1137,8 +1114,8 @@
                             <div class="product_wrap">
                                 <div class="product_img">
                                     <a href="shop-product-detail.html">
-                                        <img src="assets/images/el_img2.jpg" alt="el_img2">
-                                        <img class="product_hover_img" src="assets/images/el_hover_img2.jpg" alt="el_hover_img2">
+                                        <img src="~/assets/images/el_img2.jpg" alt="el_img2">
+                                        <img class="product_hover_img" src="~/assets/images/el_hover_img2.jpg" alt="el_hover_img2">
                                     </a>
                                     <div class="product_action_box">
                                         <ul class="list_none pr_action_btn">
@@ -1174,8 +1151,8 @@
                             <div class="product_wrap">
                                 <div class="product_img">
                                     <a href="shop-product-detail.html">
-                                        <img src="assets/images/el_img5.jpg" alt="el_img5">
-                                        <img class="product_hover_img" src="assets/images/el_hover_img5.jpg" alt="el_hover_img5">
+                                        <img src="~/assets/images/el_img5.jpg" alt="el_img5">
+                                        <img class="product_hover_img" src="~/assets/images/el_hover_img5.jpg" alt="el_hover_img5">
                                     </a>
                                     <div class="product_action_box">
                                         <ul class="list_none pr_action_btn">
@@ -1211,8 +1188,8 @@
                             <div class="product_wrap">
                                 <div class="product_img">
                                     <a href="shop-product-detail.html">
-                                        <img src="assets/images/el_img9.jpg" alt="el_img9">
-                                        <img class="product_hover_img" src="assets/images/el_hover_img9.jpg" alt="el_hover_img9">
+                                        <img src="~/assets/images/el_img9.jpg" alt="el_img9">
+                                        <img class="product_hover_img" src="~/assets/images/el_hover_img9.jpg" alt="el_hover_img9">
                                     </a>
                                     <div class="product_action_box">
                                         <ul class="list_none pr_action_btn">
@@ -1248,8 +1225,8 @@
                             <div class="product_wrap">
                                 <div class="product_img">
                                     <a href="shop-product-detail.html">
-                                        <img src="assets/images/el_img7.jpg" alt="el_img7">
-                                        <img class="product_hover_img" src="assets/images/el_hover_img7.jpg" alt="el_hover_img7">
+                                        <img src="~/assets/images/el_img7.jpg" alt="el_img7">
+                                        <img class="product_hover_img" src="~/assets/images/el_hover_img7.jpg" alt="el_hover_img7">
                                     </a>
                                     <div class="product_action_box">
                                         <ul class="list_none pr_action_btn">
@@ -1285,8 +1262,8 @@
                             <div class="product_wrap">
                                 <div class="product_img">
                                     <a href="shop-product-detail.html">
-                                        <img src="assets/images/el_img5.jpg" alt="el_img5">
-                                        <img class="product_hover_img" src="assets/images/el_hover_img5.jpg" alt="el_hover_img5">
+                                        <img src="~/assets/images/el_img5.jpg" alt="el_img5">
+                                        <img class="product_hover_img" src="~/assets/images/el_hover_img5.jpg" alt="el_hover_img5">
                                     </a>
                                     <div class="product_action_box">
                                         <ul class="list_none pr_action_btn">
@@ -1322,8 +1299,8 @@
                             <div class="product_wrap">
                                 <div class="product_img">
                                     <a href="shop-product-detail.html">
-                                        <img src="assets/images/el_img12.jpg" alt="el_img12">
-                                        <img class="product_hover_img" src="assets/images/el_hover_img12.jpg" alt="el_hover_img12">
+                                        <img src="~/assets/images/el_img12.jpg" alt="el_img12">
+                                        <img class="product_hover_img" src="~/assets/images/el_hover_img12.jpg" alt="el_hover_img12">
                                     </a>
                                     <div class="product_action_box">
                                         <ul class="list_none pr_action_btn">
@@ -1380,7 +1357,7 @@
                             </div>
                             <div class="author_wrap">
                                 <div class="author_img">
-                                    <img src="assets/images/user_img1.jpg" alt="user_img1" />
+                                    <img src="~/assets/images/user_img1.jpg" alt="user_img1" />
                                 </div>
                                 <div class="author_name">
                                     <h6>Lissa Castro</h6>
@@ -1394,7 +1371,7 @@
                             </div>
                             <div class="author_wrap">
                                 <div class="author_img">
-                                    <img src="assets/images/user_img2.jpg" alt="user_img2" />
+                                    <img src="~/assets/images/user_img2.jpg" alt="user_img2" />
                                 </div>
                                 <div class="author_name">
                                     <h6>Alden Smith</h6>
@@ -1408,7 +1385,7 @@
                             </div>
                             <div class="author_wrap">
                                 <div class="author_img">
-                                    <img src="assets/images/user_img3.jpg" alt="user_img3" />
+                                    <img src="~/assets/images/user_img3.jpg" alt="user_img3" />
                                 </div>
                                 <div class="author_name">
                                     <h6>Daisy Lana</h6>
@@ -1422,7 +1399,7 @@
                             </div>
                             <div class="author_wrap">
                                 <div class="author_img">
-                                    <img src="assets/images/user_img4.jpg" alt="user_img4" />
+                                    <img src="~/assets/images/user_img4.jpg" alt="user_img4" />
                                 </div>
                                 <div class="author_name">
                                     <h6>John Becker</h6>
@@ -1452,7 +1429,7 @@
                     <div class="blog_post blog_style2 box_shadow1">
                         <div class="blog_img">
                             <a href="blog-single.html">
-                                <img src="assets/images/el_blog_img1.jpg" alt="el_blog_img1">
+                                <img src="~/assets/images/el_blog_img1.jpg" alt="el_blog_img1">
                             </a>
                         </div>
                         <div class="blog_content bg-white">
@@ -1471,7 +1448,7 @@
                     <div class="blog_post blog_style2 box_shadow1">
                         <div class="blog_img">
                             <a href="blog-single.html">
-                                <img src="assets/images/el_blog_img2.jpg" alt="el_blog_img2">
+                                <img src="~/assets/images/el_blog_img2.jpg" alt="el_blog_img2">
                             </a>
                         </div>
                         <div class="blog_content bg-white">
@@ -1490,7 +1467,7 @@
                     <div class="blog_post blog_style2 box_shadow1">
                         <div class="blog_img">
                             <a href="blog-single.html">
-                                <img src="assets/images/el_blog_img3.jpg" alt="el_blog_img2">
+                                <img src="~/assets/images/el_blog_img3.jpg" alt="el_blog_img2">
                             </a>
                         </div>
                         <div class="blog_content bg-white">
@@ -1517,37 +1494,37 @@
                     <div class="client_logo carousel_slider owl-carousel owl-theme" data-dots="false" data-margin="30" data-loop="true" data-autoplay="true" data-responsive='{"0":{"items": "2"}, "480":{"items": "3"}, "767":{"items": "4"}, "991":{"items": "5"}}'>
                         <div class="item">
                             <div class="cl_logo">
-                                <img src="assets/images/cl_logo1.png" alt="cl_logo" />
+                                <img src="~/assets/images/cl_logo1.png" alt="cl_logo" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="cl_logo">
-                                <img src="assets/images/cl_logo2.png" alt="cl_logo" />
+                                <img src="~/assets/images/cl_logo2.png" alt="cl_logo" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="cl_logo">
-                                <img src="assets/images/cl_logo3.png" alt="cl_logo" />
+                                <img src="~/assets/images/cl_logo3.png" alt="cl_logo" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="cl_logo">
-                                <img src="assets/images/cl_logo4.png" alt="cl_logo" />
+                                <img src="~/assets/images/cl_logo4.png" alt="cl_logo" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="cl_logo">
-                                <img src="assets/images/cl_logo5.png" alt="cl_logo" />
+                                <img src="~/assets/images/cl_logo5.png" alt="cl_logo" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="cl_logo">
-                                <img src="assets/images/cl_logo6.png" alt="cl_logo" />
+                                <img src="~/assets/images/cl_logo6.png" alt="cl_logo" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="cl_logo">
-                                <img src="assets/images/cl_logo7.png" alt="cl_logo" />
+                                <img src="~/assets/images/cl_logo7.png" alt="cl_logo" />
                             </div>
                         </div>
                     </div>
