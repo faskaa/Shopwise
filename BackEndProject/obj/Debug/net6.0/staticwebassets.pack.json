@@ -1,0 +1,1205 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\linearicons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\linearicons.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\simple-line-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\simple-line-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Linearicons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Linearicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Linearicons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Linearicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Linearicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Linearicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Linearicons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Linearicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\ionicons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\ionicons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\about_img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about_img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\amarican_express.png",
+      "PackagePath": "staticwebassets\\assets\\images\\amarican_express.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner18.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\banner9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_img4-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_img4-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_img6-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_img6-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_single_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_single_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_single_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_single_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_small_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_small_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_small_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_small_img4-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img4-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_small_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_small_img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_small_img6-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img6-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_small_img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_small_img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\blog_small_img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cart_thamb1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cart_thamb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cart_thamb2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cart_thamb2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cat_img1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cat_img1.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cat_img2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cat_img2.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cat_img3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cat_img3.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cat_img4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cat_img4.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cat_img5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cat_img5.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cat_img6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cat_img6.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cat_img7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cat_img7.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cl_logo1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cl_logo2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cl_logo3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo3.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cl_logo4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo4.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cl_logo5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo5.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cl_logo6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo6.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cl_logo7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo7.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\close.png",
+      "PackagePath": "staticwebassets\\assets\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\discover.png",
+      "PackagePath": "staticwebassets\\assets\\images\\discover.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_blog_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_blog_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_blog_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_blog_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_blog_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_blog_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_hover_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_hover_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_hover_img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_hover_img10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_hover_img11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_hover_img11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_hover_img12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_hover_img12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_hover_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_hover_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_hover_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_hover_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_hover_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_hover_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_hover_img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_hover_img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_hover_img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_hover_img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_hover_img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_hover_img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_hover_img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_hover_img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_hover_img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_hover_img9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_img10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_img11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_img11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_img12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_img12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\el_img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\el_img9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\eng.png",
+      "PackagePath": "staticwebassets\\assets\\images\\eng.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\f1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\f1.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\f2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\f2.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\fn.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fn.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_banner1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_banner2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_banner3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_blog_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_blog_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_blog_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_blog_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_blog_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_blog_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_insta1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_insta1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_insta2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_insta2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_insta3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_insta3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_insta4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_insta4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_insta5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_insta5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_insta6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_insta6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_insta_small1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_insta_small1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_insta_small2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_insta_small2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_insta_small3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_insta_small3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_insta_small4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_insta_small4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_insta_small5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_insta_small5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_insta_small6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_insta_small6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_insta_small7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_insta_small7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\furniture_insta_small8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\furniture_insta_small8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\insta_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\insta_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\insta_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\insta_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\insta_img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\insta_img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\insta_img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\insta_img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\letest_post1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\letest_post1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\letest_post2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\letest_post2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\letest_post3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\letest_post3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\logo_dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo_dark.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\logo_light.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo_light.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\marker.png",
+      "PackagePath": "staticwebassets\\assets\\images\\marker.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\master_card.png",
+      "PackagePath": "staticwebassets\\assets\\images\\master_card.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\menu_banner1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu_banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\menu_banner11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu_banner11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\menu_banner2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu_banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\menu_banner22.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu_banner22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\menu_banner3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu_banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\menu_banner33.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu_banner33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\menu_banner4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu_banner4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\menu_banner5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu_banner5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\menu_banner6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu_banner6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\menu_banner7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu_banner7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\menu_banner8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu_banner8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\menu_banner9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\menu_banner9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\paypal.png",
+      "PackagePath": "staticwebassets\\assets\\images\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\popup_img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\popup_img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\popup_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\popup_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img1-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img1-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img1-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img1-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img1-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img1-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_img9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_small_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_small_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_small_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_small_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_small_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_small_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_small_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_small_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_zoom_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_zoom_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_zoom_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_zoom_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_zoom_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_zoom_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\product_zoom_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_zoom_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner_img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner_img10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner_img11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner_img11.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner_img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner_img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner_img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner_img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner_img6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner_img6.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner_img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner_img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner_img7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner_img7.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner_img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner_img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_banner_img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_banner_img9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_small1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_small1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_small2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_small2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\shop_small3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_small3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\sidebar_banner_img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sidebar_banner_img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\sidebar_banner_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sidebar_banner_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\sidebar_banner_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sidebar_banner_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\team_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\team_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\team_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\team_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\tranding_img.png",
+      "PackagePath": "staticwebassets\\assets\\images\\tranding_img.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\us.png",
+      "PackagePath": "staticwebassets\\assets\\images\\us.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\user1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\user2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\user3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\user4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\user_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\user_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\user_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\user_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\visa.png",
+      "PackagePath": "staticwebassets\\assets\\images\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\isotope-loadmore.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope-loadmore.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope.min.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\jquery.dd.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.dd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\jquery.elevatezoom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.elevatezoom.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\jquery.fitvids.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.fitvids.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\parallax.js",
+      "PackagePath": "staticwebassets\\assets\\js\\parallax.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\owlcarousel\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\owlcarousel\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\owlcarousel\\css\\owl.theme.css",
+      "PackagePath": "staticwebassets\\assets\\owlcarousel\\css\\owl.theme.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\owlcarousel\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\assets\\owlcarousel\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\owlcarousel\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\owlcarousel\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BackEndProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BackEndProject.props",
+      "PackagePath": "build\\BackEndProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BackEndProject.props",
+      "PackagePath": "buildMultiTargeting\\BackEndProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BackEndProject.props",
+      "PackagePath": "buildTransitive\\BackEndProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
