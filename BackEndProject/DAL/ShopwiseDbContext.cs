@@ -11,5 +11,10 @@ namespace BackEndProject.DAL
         }
 
         public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
+
+
+
     }
 }
