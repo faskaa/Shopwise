@@ -15,9 +15,14 @@ namespace BackEndProject.DAL
         public DbSet<Rating> Ratings { get; set; }
         public DbSet<Ad> Ads { get; set; }
         public DbSet<Category> Category { get; set; }
+        public DbSet<Setting> Settings { get; set; }
 
 
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
 
     }
 }
