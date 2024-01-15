@@ -1,11 +1,10 @@
-﻿@model IEnumerable<Slider> 
-
+﻿@model HomeVM
 <!-- START SECTION BANNER -->
 
 <div class="banner_section slide_medium shop_banner_slider staggered-animation-wrap">
     <div id="carouselExampleControls" class="carousel slide carousel-fade light_arrow" data-bs-ride="carousel">
         <div class="carousel-inner">
-            @foreach (Slider slider in Model)
+            @foreach (Slider slider in Model.Sliders)
             {
                 
                 <div class="carousel-item background_bg active" data-img-src="assets/images/@slider.BgImage">
@@ -37,14 +36,19 @@
     <div class="section pb_20 small_pt">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="sale-banner mb-3 mb-md-4">
-                        <a class="hover_effect1" href="#">
-                            <img src="~/assets/images/shop_banner_img7.jpg" alt="shop_banner_img7">
-                        </a>
+
+                @foreach (Ad ad in Model.Ads)
+                {
+                    <div class="col-md-4">
+                        <div class="sale-banner mb-3 mb-md-4">
+                            <a class="hover_effect1" href="#">
+                                <img src="~/assets/images/@ad.Image" alt="Ads data problem">
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4">
+                    
+                }
+@*                 <div class="col-md-4">
                     <div class="sale-banner mb-3 mb-md-4">
                         <a class="hover_effect1" href="#">
                             <img src="~/assets/images/shop_banner_img8.jpg" alt="shop_banner_img8">
@@ -57,7 +61,7 @@
                             <img src="~/assets/images/shop_banner_img9.jpg" alt="shop_banner_img9">
                         </a>
                     </div>
-                </div>
+                </div> *@
             </div>
         </div>
     </div>
@@ -76,15 +80,19 @@
             <div class="row align-items-center">
                 <div class="col-12">
                     <div class="cat_slider cat_style1 mt-4 mt-md-0 carousel_slider owl-carousel owl-theme nav_style5" data-loop="true" data-dots="false" data-nav="true" data-margin="30" data-responsive='{"0":{"items": "2"}, "480":{"items": "3"}, "576":{"items": "4"}, "768":{"items": "5"}, "991":{"items": "6"}, "1199":{"items": "7"}}'>
-                        <div class="item">
+                      @foreach (Category category in Model.Categories)
+                        {
+                            
+                            <div class="item">
                             <div class="categories_box">
                                 <a href="#">
-                                    <img src="~/assets/images/cat_img1.png" alt="cat_img1" />
-                                    <span>Television</span>
+                                    <img src="~/assets/images/@category.Image" alt="cat_img1" />
+                                    <span>@category.Name</span>
                                 </a>
                             </div>
                         </div>
-                        <div class="item">
+                        }
+                        @* <div class="item">
                             <div class="categories_box">
                                 <a href="#">
                                     <img src="~/assets/images/cat_img2.png" alt="cat_img2" />
@@ -131,7 +139,7 @@
                                     <span>Audio</span>
                                 </a>
                             </div>
-                        </div>
+                        </div> *@
                     </div>
                 </div>
             </div>

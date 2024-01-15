@@ -249,6 +249,34 @@
       "PackagePath": "staticwebassets\\assets\\images\\about_img.jpg"
     },
     {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\ads-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ads-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\ads-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ads-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\ads-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ads-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\ads-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ads-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\ads-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ads-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\ads-6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ads-6.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\ads-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ads-7.jpg"
+    },
+    {
       "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\assets\\images\\ajax-loader.gif"
     },

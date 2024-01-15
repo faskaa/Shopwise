@@ -1,6 +1,8 @@
 ﻿using BackEndProject.DAL;
 using BackEndProject.Entities;
+using BackEndProject.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BackEndProject.Controllers
 {
@@ -15,7 +17,18 @@ namespace BackEndProject.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<Slider> model = _context.Sliders;
+            //Category category = _context.Category.FirstOrDefault(c=>c.IsTop==true)!;
+            HomeVM model = new HomeVM
+            {
+                Sliders = _context.Sliders.ToList(),
+                Ads = _context.Ads.ToList(),
+                Categories = _context.Category.ToList(),
+                
+                //Categories = _context.Category.Where(c=>c.IsTop==true).ToList(),
+            };
+
+            
+            //IEnumerable<Slider> model = _context.Sliders;
             return View(model);
         }
     }
