@@ -16,6 +16,12 @@ namespace BackEndProject.DAL
         public DbSet<Ad> Ads { get; set; }
         public DbSet<Category> Category { get; set; }
         public DbSet<Setting> Settings { get; set; }
+        public DbSet<Information> Informations { get; set; }
+        public DbSet<ProductInformation> ProductInformations { get; set; }
+
+
+
+
 
 
 

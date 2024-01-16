@@ -11,7 +11,9 @@
         public bool IsTrend { get; set; }
 
         public int RatingId { get; set; } 
-        public Rating Rating { get; set; } 
+        public Rating Rating { get; set; }
+
+        public ICollection<ProductInformation> ProductInformation { get; set; }
 
         public ICollection<ProductCategory>  ProductCategories { get; set; }
     }

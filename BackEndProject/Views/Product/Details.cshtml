@@ -96,9 +96,9 @@
                             </div>
                             <div class="product_sort_info">
                                 <ul>
-                                    <li><i class="linearicons-shield-check"></i> 1 Year AL Jazeera Brand Warranty</li>
-                                    <li><i class="linearicons-sync"></i> 30 Day Return Policy</li>
-                                    <li><i class="linearicons-bag-dollar"></i> Cash on Delivery available</li>
+                                    <li><i class="linearicons-shield-check"></i> @Model.Product.ProductInformation.FirstOrDefault(p=>p.Information.Key=="Warranty")?.Information.Value</li>
+                                    <li><i class="linearicons-sync"></i> @Model.Product.ProductInformation.FirstOrDefault(p=>p.Information.Key =="Return")?.Information.Value</li>
+                                    <li><i class="linearicons-bag-dollar"></i> @Model.Product.ProductInformation.FirstOrDefault(p=>p.Information.Key =="Cash")?.Information.Value</li>
                                 </ul>
                             </div>
                             <div class="pr_switch_wrap">

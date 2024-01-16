@@ -27,6 +27,7 @@ namespace BackEndProject.Controllers
             if (id == 0) return BadRequest();
             IQueryable <Product> queryable= _context.Products.AsQueryable(); 
             Product product = _context.Products
+                .Include(p=>p.ProductInformation).ThenInclude(p=>p.Information)
                 .Include(p => p.ProductCategories)
                 .ThenInclude(p=>p.Category)
                 .Include(t => (t as Product).Rating)
