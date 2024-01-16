@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Shared\Components\Header\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

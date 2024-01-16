@@ -8,7 +8,7 @@
         public decimal Price { get; set; }
         public string SKU { get; set; }
         public int? Offer { get; set; }
-
+        public bool IsTrend { get; set; }
 
         public int RatingId { get; set; } 
         public Rating Rating { get; set; } 

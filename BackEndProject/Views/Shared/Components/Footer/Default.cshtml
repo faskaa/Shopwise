@@ -6,9 +6,9 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="widget">
                         <div class="footer_logo">
-                            <a href="#"><img src="~/assets/images/logo_light.png" alt="logo" /></a>
+                            <a href="#"><img src="~/assets/images/@Model.FirstOrDefault(p=>p.Key == "LogoLight")?.Value" alt="logo" /></a>
                         </div>
-                        <p>If you are going to use of Lorem Ipsum need to be sure there isn't hidden of text</p>
+                        <p>@Model.FirstOrDefault(p=>p.Key == "Description")?.Value</p>
                     </div>
                     <div class="widget">
                         <ul class="social_icons social_white">
@@ -62,11 +62,11 @@
                         <ul class="contact_info contact_info_light">
                             <li>
                                 <i class="ti-location-pin"></i>
-                                <p>123 Street, Old Trafford, New South London , UK</p>
+                                <p>@Model.FirstOrDefault(p=>p.Key == "Location")?.Value</p>
                             </li>
                             <li>
                                 <i class="ti-email"></i>
-                                <a href="mailto:info@sitename.com">info@sitename.com</a>
+                                <a href="mailto:info@sitename.com">@Model.FirstOrDefault(p=>p.Key == "Gmail")?.Value</a>
                             </li>
                             <li>
                                 <i class="ti-mobile"></i>
@@ -82,7 +82,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p class="mb-md-0 text-center text-md-start">© 2020 All Rights Reserved by Bestwebcreator</p>
+                    <p class="mb-md-0 text-center text-md-start">© @Model.FirstOrDefault(p=>p.Key == "RelaseDate")?.Value All Rights Reserved by Bestwebcreator</p>
                 </div>
                 <div class="col-md-6">
                     <ul class="footer_payment text-center text-lg-end">

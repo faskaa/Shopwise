@@ -23,6 +23,7 @@ namespace BackEndProject.Controllers
                 Sliders = _context.Sliders.ToList(),
                 Ads = _context.Ads.ToList(),
                 Categories = _context.Category.ToList(),
+                Products = _context.Products.Include(p=>p.Rating).Where(p=>p.Offer.HasValue).ToList(),
                 
                 //Categories = _context.Category.Where(c=>c.IsTop==true).ToList(),
             };
