@@ -16,7 +16,7 @@ namespace BackEndProject.ViewComponents
         }
 
         public async Task<IViewComponentResult> InvokeAsync()
-        {   
+        {
             List<Setting> settings = await _context.Settings.ToListAsync();
             return View(settings);
         }

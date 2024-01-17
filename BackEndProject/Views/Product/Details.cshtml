@@ -30,18 +30,35 @@
                 <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
                     <div class="product-image">
                         <div class="product_img_box">
-                            <img id="product_img" src='~/assets/images/product_img1.jpg' data-zoom-image="assets/images/product_zoom_img1.jpg" alt="product_img1" />
+                            <img id="product_img" src='~/assets/images/@Model.Product.ProductImage.FirstOrDefault(p=>p.IsMain==true)?.Path' data-zoom-image="assets/images/@Model.Product.ProductImage.FirstOrDefault(p=>p.IsMain==null)?.Path" alt="product_img1" />
                             <a href="#" class="product_img_zoom" title="Zoom">
                                 <span class="linearicons-zoom-in"></span>
                             </a>
                         </div>
                         <div id="pr_item_gallery" class="product_gallery_item slick_slider" data-slides-to-show="4" data-slides-to-scroll="1" data-infinite="false">
-                            <div class="item">
-                                <a href="#" class="product_gallery_item active" data-image="assets/images/product_img1.jpg" data-zoom-image="assets/images/product_zoom_img1.jpg">
-                                    <img src="~/assets/images/product_small_img1.jpg" alt="product_small_img1" />
-                                </a>
-                            </div>
-                            <div class="item">
+
+                         
+                                
+                                <div class="item">
+                                    @if (@Model.Product.ProductImage.FirstOrDefault(p => p.IsMain == false)?.Path == null )
+                                    {
+                                        <a href="#"  style="display:none" class="product_gallery_item active" data-image="assets/images/product_img1.jpg" data-zoom-image="assets/images/product_zoom_img1.jpg">
+                                            <img src="~/assets/images/product_small_img1.jpg" alt="product_small_img1" />
+                                        </a>
+
+                                    }
+                                    else
+                                    {
+                                        <a href="#" class="product_gallery_item active" data-image="assets/images/@Model.Product.ProductImage.FirstOrDefault(p => p.IsMain == false)?.Path" data-zoom-image="assets/images/@Model.Product.ProductImage.FirstOrDefault(p => p.IsMain == false)?.Path">
+                                            <img src="~/assets/images/@Model.Product.ProductImage.FirstOrDefault(p => p.IsMain == false)?.Path" alt="product_small_img1" />
+                                        </a>
+                                        
+                                    }
+                                </div>
+                            
+                                
+                            
+                            @* <div class="item">
                                 <a href="#" class="product_gallery_item" data-image="assets/images/product_img1-2.jpg" data-zoom-image="assets/images/product_zoom_img2.jpg">
                                     <img src="~/assets/images/product_small_img2.jpg" alt="product_small_img2" />
                                 </a>
@@ -55,7 +72,7 @@
                                 <a href="#" class="product_gallery_item" data-image="assets/images/product_img1-4.jpg" data-zoom-image="assets/images/product_zoom_img4.jpg">
                                     <img src="~/assets/images/product_small_img4.jpg" alt="product_small_img4" />
                                 </a>
-                            </div>
+                            </div> *@
                         </div>
                     </div>
                 </div>
@@ -289,7 +306,19 @@
             <div class="row">
                 <div class="col-12">
                     <div class="heading_s1">
+                        @if(Model.Relateds.Count == 0)
+                        {
+                         <h3 >Releted Products</h3>
+                         <span>
+                                Sorry, there's nothing about related products :( 
+                         </span>
+                        }
+                        else
+                        {
+                            
                         <h3>Releted Products</h3>
+                        }
+
                     </div>
                     <div class="releted_product_slider carousel_slider owl-carousel owl-theme" data-margin="20" data-responsive='{"0":{"items": "1"}, "481":{"items": "2"}, "768":{"items": "3"}, "1199":{"items": "4"}}'>
                          @foreach (Product relatedProducts in Model.Relateds)
@@ -298,7 +327,7 @@
                                 <div class="product">
                                     <div class="product_img">
                                         <a href="shop-product-detail.html">
-                                            <img src="~/assets/images/product_img1.jpg" alt="product_img1">
+                                            <img src="~/assets/images/@relatedProducts.ProductImage.FirstOrDefault(p=>p.IsMain== true)?.Path" alt="product_img1">
                                         </a>
                                         <div class="product_action_box">
                                             <ul class="list_none pr_action_btn">

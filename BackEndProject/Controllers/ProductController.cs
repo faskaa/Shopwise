@@ -18,7 +18,7 @@ namespace BackEndProject.Controllers
         }
         public IActionResult Index()
         {
-            List<Product> product = _context.Products.Include(p=>p.Rating).ToList();
+            List<Product> product = _context.Products.Include(p=>p.Rating).Include(p=>p.ProductImage).ToList();
             return View(product);
         }
 
@@ -26,7 +26,7 @@ namespace BackEndProject.Controllers
         {
             if (id == 0) return BadRequest();
             IQueryable <Product> queryable= _context.Products.AsQueryable(); 
-            Product product = _context.Products
+            Product product = _context.Products.Include(p=>p.ProductImage)
                 .Include(p=>p.ProductInformation).ThenInclude(p=>p.Information)
                 .Include(p => p.ProductCategories)
                 .ThenInclude(p=>p.Category)
@@ -44,13 +44,14 @@ namespace BackEndProject.Controllers
             return View(model);
         }
 
+
         private ICollection<Product> RelatedProducts(IQueryable<Product> products, Product product)
         {
             ICollection<ProductCategory> categories = product.ProductCategories;
             List <Product> relateds = new List<Product>();
             foreach (ProductCategory category in categories)
             {
-                List<Product> founds = products.Include(p=>p.ProductCategories).AsEnumerable()
+                List<Product> founds = products.Include(p=>p.ProductCategories).Include(p=>p.ProductImage).AsEnumerable()
                                                   .Where(p => p.ProductCategories
                                                    .Any(pc => pc.CategoryId == category.CategoryId)
                                                    && p.Id != product.Id

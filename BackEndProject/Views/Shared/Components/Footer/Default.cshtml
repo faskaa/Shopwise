@@ -6,7 +6,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="widget">
                         <div class="footer_logo">
-                            <a href="#"><img src="~/assets/images/@Model.FirstOrDefault(p=>p.Key == "LogoLight")?.Value" alt="logo" /></a>
+                            <a asp-controller="home" asp-action="index"><img src="~/assets/images/@Model.FirstOrDefault(p=>p.Key == "LogoLight")?.Value" alt="logo" /></a>
                         </div>
                         <p>@Model.FirstOrDefault(p=>p.Key == "Description")?.Value</p>
                     </div>

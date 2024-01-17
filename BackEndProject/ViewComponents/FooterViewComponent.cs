@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BackEndProject.ViewComponents
 {
-    public class FooterViewComponent:ViewComponent
+    public class FooterViewComponent : ViewComponent
     {
 
         private readonly ShopwiseDbContext _context;
@@ -17,7 +17,7 @@ namespace BackEndProject.ViewComponents
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            List<Setting> settings =  await _context.Settings.ToListAsync();
+            List<Setting> settings = await _context.Settings.ToListAsync();
             return View(settings);
         }
     }

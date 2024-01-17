@@ -66,8 +66,8 @@
                             <div class="col-lg-3 col-md-4 col-6">
                                 <div class="product">
                                     <div class="product_img">
-                                        <a href="shop-product-detail.html">
-                                            <img src="~/assets/images/product_img1.jpg" alt="product_img1">
+                                        <a asp-controller="product" asp-action="details" asp-route-Id="@product.Id">
+                                            <img src="~/assets/images/@product.ProductImage.FirstOrDefault(p=>p.IsMain == true)?.Path" alt="product_img1">
                                         </a>
                                         <div class="product_action_box">
                                             <ul class="list_none pr_action_btn">
@@ -79,7 +79,7 @@
                                         </div>
                                     </div>
                                     <div class="product_info">
-                                        <h6 class="product_title"><a href="shop-product-detail.html">@product.Title</a></h6>
+                                        <h6 class="product_title"><a asp-controller="product" asp-action="details" asp-route-Id="@product.Id">@product.Title</a></h6>
                                         @if (product.Offer.HasValue)
                                         {
 
