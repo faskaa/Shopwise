@@ -188,8 +188,8 @@
                                         <div class="product_wrap">
                                             <div class="product_img">
                                                 <a href="shop-product-detail.html">
-                                                    <img src="~/assets/images/el_img1.jpg" alt="el_img1">
-                                                    <img class="product_hover_img" src="~/assets/images/el_hover_img1.jpg" alt="el_hover_img1">
+                                                    <img src="~/assets/images/@product.ProductImage.FirstOrDefault(p=>p.IsMain == true)?.Path" alt="el_img1">
+                                                        <img class="product_hover_img" src="~/assets/images/@product.ProductImage.FirstOrDefault(p=>p.IsMain == null)?.Path" alt="el_hover_img1">
                                                 </a>
                                                 <div class="product_action_box">
                                                     <ul class="list_none pr_action_btn">
@@ -955,8 +955,8 @@
                                     <div class="product_wrap">
                                         <div class="product_img">
                                             <a href="shop-product-detail.html">
-                                                <img src="~/assets/images/el_img2.jpg" alt="el_img2">
-                                                <img class="product_hover_img" src="~/assets/images/el_hover_img2.jpg" alt="el_hover_img2">
+                                                <img src="~/assets/images/@product.ProductImage.FirstOrDefault(p=>p.IsMain == true)?.Path" alt="el_img2">
+                                                <img class="product_hover_img" src="~/assets/images/@product.ProductImage.FirstOrDefault(p=>p.IsMain == null)?.Path" alt="el_hover_img2">
                                             </a>
                                             <div class="product_action_box">
                                                 <ul class="list_none pr_action_btn">

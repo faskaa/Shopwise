@@ -18,6 +18,8 @@ namespace BackEndProject.DAL
         public DbSet<Setting> Settings { get; set; }
         public DbSet<Information> Informations { get; set; }
         public DbSet<ProductInformation> ProductInformations { get; set; }
+        public DbSet<ProductImage> ProductImage { get; set; }
+
 
 
 

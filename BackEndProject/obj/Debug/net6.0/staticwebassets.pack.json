@@ -861,6 +861,66 @@
       "PackagePath": "staticwebassets\\assets\\images\\menu_banner9.jpg"
     },
     {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\p1-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\p1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\p1-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\p1-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\p2-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\p2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\p2-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\p2-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\p3-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\p3-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\p3-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\p3-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\p3-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\p3-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\p4-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\p4-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\p4-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\p4-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\p5-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\p5-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\p5-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\p5-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\p6-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\p6-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\p6-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\p6-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\p7-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\p7-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\p7-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\p7-2.png"
+    },
+    {
       "Id": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\paypal.png",
       "PackagePath": "staticwebassets\\assets\\images\\paypal.png"
     },

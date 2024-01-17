@@ -4,6 +4,7 @@ using BackEndProject.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BackEndProject.Migrations
 {
     [DbContext(typeof(ShopwiseDbContext))]
-    partial class ShopwiseDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240117160516_CapacityResistanceColorAndMaterialColumnAddedToProduct")]
+    partial class CapacityResistanceColorAndMaterialColumnAddedToProduct
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -166,31 +168,6 @@ namespace BackEndProject.Migrations
                     b.ToTable("ProductCategory");
                 });
 
-            modelBuilder.Entity("BackEndProject.Entities.ProductImage", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<bool?>("IsMain")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Path")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("ProductImage");
-                });
-
             modelBuilder.Entity("BackEndProject.Entities.ProductInformation", b =>
                 {
                     b.Property<int>("Id")
@@ -310,17 +287,6 @@ namespace BackEndProject.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("BackEndProject.Entities.ProductImage", b =>
-                {
-                    b.HasOne("BackEndProject.Entities.Product", "Product")
-                        .WithMany("ProductImage")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
-                });
-
             modelBuilder.Entity("BackEndProject.Entities.ProductInformation", b =>
                 {
                     b.HasOne("BackEndProject.Entities.Information", "Information")
@@ -353,8 +319,6 @@ namespace BackEndProject.Migrations
             modelBuilder.Entity("BackEndProject.Entities.Product", b =>
                 {
                     b.Navigation("ProductCategories");
-
-                    b.Navigation("ProductImage");
 
                     b.Navigation("ProductInformation");
                 });

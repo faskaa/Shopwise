@@ -181,26 +181,25 @@
                         </ul>
                         <div class="tab-content shop_info_tab">
                             <div class="tab-pane fade show active" id="Description" role="tabpanel" aria-labelledby="Description-tab">
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Vivamus bibendum magna Lorem ipsum dolor sit amet, consectetur adipiscing elit.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+                                <p>@Model.Product.LongDescription</p>
                             </div>
                             <div class="tab-pane fade" id="Additional-info" role="tabpanel" aria-labelledby="Additional-info-tab">
                                 <table class="table table-bordered">
                                     <tr>
                                         <td>Capacity</td>
-                                        <td>5 Kg</td>
+                                        <td>@Model.Product.Capacity</td>
                                     </tr>
                                     <tr>
                                         <td>Color</td>
-                                        <td>Black, Brown, Red,</td>
+                                        <td>@Model.Product.Color</td>
                                     </tr>
                                     <tr>
                                         <td>Water Resistant</td>
-                                        <td>Yes</td>
+                                        <td>@Model.Product.WaterResistance</td>
                                     </tr>
                                     <tr>
                                         <td>Material</td>
-                                        <td>Artificial Leather</td>
+                                        <td>@Model.Product.Material</td>
                                     </tr>
                                 </table>
                             </div>
