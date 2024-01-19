@@ -17,6 +17,7 @@ namespace BackEndProject
                 options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
             });
             var app = builder.Build();
+            app.UseStaticFiles();
             app.UseRouting();
             app.UseEndpoints(endpoints =>
             {
@@ -33,7 +34,6 @@ namespace BackEndProject
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseStaticFiles();
             app.Run();
         }
     }
