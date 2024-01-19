@@ -1,5 +1,6 @@
 ﻿using BackEndProject.Entities;
 using Microsoft.EntityFrameworkCore;
+using BackEndProject.Areas.Admin.ViewModels;
 
 namespace BackEndProject.DAL
 {
@@ -31,6 +32,14 @@ namespace BackEndProject.DAL
         {
             base.OnModelCreating(modelBuilder);
         }
+
+
+
+
+
+
+
+
 
     }
 }

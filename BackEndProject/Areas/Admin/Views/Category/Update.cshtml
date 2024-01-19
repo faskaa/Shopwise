@@ -1,0 +1,39 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "Update";
+}
+
+
+<div>
+<h2>Category Update</h2>
+
+<div asp-validation-summary="All" class="alert-danger"></div>
+<form  method="post" style="max-width: 400px; margin: auto;">
+
+        <!-- Name Input -->
+        <input asp-for="@Model.Name"  style="width: 100%; padding: 8px; margin-bottom: 16px;">
+        <span asp-validation-for="@Model.Name" class="text-danger"></span>
+
+        <!-- Image Input -->
+        <input asp-for="@Model.Image" style="width: 100%; padding: 8px; margin-bottom: 16px;">
+        <span asp-validation-for="@Model.Image" class="text-danger"></span>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+
+</form>
+</div>
+
+
+
+@*     <div style="display:block">
+    <h1>Category Update</h1>
+    
+        <form>
+        
+            <input style="width:100%;margin-bottom:20px" />
+            <input style="width:100%" />
+        </form>
+    </div>
+ *@
+
