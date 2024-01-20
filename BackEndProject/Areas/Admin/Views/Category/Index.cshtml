@@ -63,33 +63,5 @@
     </div>
 </div>
 
-<div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="confirmationModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="confirmationModalLabel">Confirmation</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                Are you sure you want to delete the category <span id="categoryName"></span>?
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                <a id="deleteLink" class="btn btn-danger">Delete</a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<script>
-    // JavaScript function to show confirmation modal
-    function showConfirmationModal(categoryName) {
-        $('#categoryName').text(categoryName);
-        $('#confirmationModal').modal('show');
-        // Set the delete link href when the user clicks 'Delete'
-        $('#deleteLink').attr('href', '/Category/Delete/' + categoryName); // Adjust the URL accordingly
-    }
-</script>
 
