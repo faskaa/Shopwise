@@ -24,6 +24,7 @@ namespace BackEndProject.Controllers
                 Ads = _context.Ads.ToList(),
                 Categories = _context.Category.ToList(),
                 Products = _context.Products.Include(p=>p.Rating).Include(p=>p.ProductImage).ToList(),
+                addOffers = _context.AddOffer.ToList(),
                 
                 //Categories = _context.Category.Where(c=>c.IsTop==true).ToList(),
             };

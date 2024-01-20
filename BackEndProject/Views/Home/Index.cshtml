@@ -925,9 +925,13 @@
             <div class="row">
                 <div class="col-12">
                     <div class="sale-banner mb-3 mb-md-4">
-                        <a class="hover_effect1" href="#">
-                            <img src="~/assets/images/shop_banner_img11.png" alt="shop_banner_img11">
-                        </a>
+                        @foreach (AddOffer ad in Model.addOffers)
+                        {
+                            <a class="hover_effect1" href="#">
+                                <img src="~/assets/images/@ad.Image" alt="shop_banner_img11">
+                            </a>
+                            
+                        }
                     </div>
                 </div>
             </div>

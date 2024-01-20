@@ -8,7 +8,7 @@ namespace BackEndProject.ViewModels
         public IEnumerable<Ad> Ads { get; set; } = null!;   
         public ICollection<Category> Categories { get; set;} = null!;
         public ICollection<Product> Products { get; set; } = null!;
-
+        public ICollection<AddOffer> addOffers { get; set; }
 
 
 

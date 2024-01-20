@@ -1,10 +1,12 @@
 ﻿using BackEndProject.Entities;
 using Microsoft.EntityFrameworkCore;
 using BackEndProject.Areas.Admin.ViewModels;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace BackEndProject.DAL
 {
-    public class ShopwiseDbContext:DbContext
+    public class ShopwiseDbContext:IdentityDbContext<CustomUser>
     {
         public ShopwiseDbContext(DbContextOptions<ShopwiseDbContext> options):base(options)
         {
@@ -20,6 +22,12 @@ namespace BackEndProject.DAL
         public DbSet<Information> Informations { get; set; }
         public DbSet<ProductInformation> ProductInformations { get; set; }
         public DbSet<ProductImage> ProductImage { get; set; }
+        public DbSet<CustomUser> CustomUsers { get; set; }
+        public DbSet<Info> Info { get; set; }
+        public DbSet<AddOffer> AddOffer { get; set; }
+
+
+
 
 
 

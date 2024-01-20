@@ -1,6 +1,7 @@
 ﻿using BackEndProject.Areas.Admin.ViewModels;
 using BackEndProject.DAL;
 using BackEndProject.Entities;
+using BackEndProject.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,9 +11,11 @@ namespace BackEndProject.Areas.Admin.Controllers
     public class CategoryController : Controller
     {
         private readonly ShopwiseDbContext _context;
-        public CategoryController(ShopwiseDbContext context)
+        private readonly IWebHostEnvironment _env;
+        public CategoryController(ShopwiseDbContext context , IWebHostEnvironment env)
         {
                 _context = context;
+                _env = env;
         }
         public IActionResult Index()
         {
@@ -22,9 +25,9 @@ namespace BackEndProject.Areas.Admin.Controllers
 
         public IActionResult Detail(int id)
         {
-            //if (id == 0) return BadRequest();
+            if (id == 0) return BadRequest();
             Category category = _context.Category.FirstOrDefault(c=>c.Id == id)!;
-            //if (category == null) return NotFound();
+            if (category == null) return NotFound();
             return View(category);
         }
 
@@ -35,7 +38,7 @@ namespace BackEndProject.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(CreateCategoryVM category)
+        public async Task<IActionResult> Create(CreateCategoryVM category)
         {
             if (!ModelState.IsValid) return View();
 
@@ -45,10 +48,12 @@ namespace BackEndProject.Areas.Admin.Controllers
                 return View();
             }
 
+            string webpath = _env.WebRootPath;
+          
             Category newCategory = new Category
             {
                 Name = category.Name,
-                Image = category.Image,
+                Image = await category.Photo.GeneratePhoto(webpath , "assets" , "images"),
                 IsTop = category.IsTop,
             };
 
