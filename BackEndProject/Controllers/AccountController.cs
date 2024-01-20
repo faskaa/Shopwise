@@ -29,7 +29,7 @@ namespace BackEndProject.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginVM login)
         {
-            if(!ModelState.IsValid) return View();
+            if (!ModelState.IsValid) return View();
             CustomUser user = await _userManager.FindByNameAsync(login.Username);
             if (user is null)
             {

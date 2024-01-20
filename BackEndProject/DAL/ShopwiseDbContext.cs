@@ -25,6 +25,7 @@ namespace BackEndProject.DAL
         public DbSet<CustomUser> CustomUsers { get; set; }
         public DbSet<Info> Info { get; set; }
         public DbSet<AddOffer> AddOffer { get; set; }
+        
 
 
 

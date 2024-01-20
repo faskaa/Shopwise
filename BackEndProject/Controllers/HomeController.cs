@@ -17,7 +17,6 @@ namespace BackEndProject.Controllers
 
         public IActionResult Index()
         {
-            //Category category = _context.Category.FirstOrDefault(c=>c.IsTop==true)!;
             HomeVM model = new HomeVM
             {
                 Sliders = _context.Sliders.ToList(),
@@ -26,12 +25,16 @@ namespace BackEndProject.Controllers
                 Products = _context.Products.Include(p=>p.Rating).Include(p=>p.ProductImage).ToList(),
                 addOffers = _context.AddOffer.ToList(),
                 
-                //Categories = _context.Category.Where(c=>c.IsTop==true).ToList(),
             };
 
             
-            //IEnumerable<Slider> model = _context.Sliders;
             return View(model);
+        }
+
+        public IActionResult Contact()
+        {
+            List<Setting> setting = _context.Settings.ToList();
+             return View(setting);
         }
     }
 }
