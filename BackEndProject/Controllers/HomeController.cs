@@ -36,5 +36,7 @@ namespace BackEndProject.Controllers
             List<Setting> setting = _context.Settings.ToList();
              return View(setting);
         }
+
+        
     }
 }

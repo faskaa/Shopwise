@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y2M+uB+fI3z+upcWCTDzPn3U/u6C8A2NgwKaYup0fP8=",
+  "Hash": "2giZUiGLvLQfuO0fYSFhbk1nIR6QfoCuPcXdUvAAdHo=",
   "Source": "BackEndProject",
   "BasePath": "_content/BackEndProject",
   "Mode": "Default",
@@ -2720,6 +2720,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\8295aab4-a5a1-4045-8936-d095fbd3d3b71-8.png"
     },
     {
+      "Identity": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\85d32bb4-09d1-4f79-82b8-802b82997098download.jpg",
+      "SourceId": "BackEndProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "BasePath": "_content/BackEndProject",
+      "RelativePath": "assets/images/85d32bb4-09d1-4f79-82b8-802b82997098download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\85d32bb4-09d1-4f79-82b8-802b82997098download.jpg"
+    },
+    {
       "Identity": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\8ffdc56d-219d-45da-ba3f-bb9debbb1b911-6.webp",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
@@ -3653,6 +3670,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\c4ec3e1c-12e3-41f4-81ea-cb876e028e231-6.webp"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\c678e69d-4e3e-4969-85cb-01d33c73738edownload.jpg",
+      "SourceId": "BackEndProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "BasePath": "_content/BackEndProject",
+      "RelativePath": "assets/images/c678e69d-4e3e-4969-85cb-01d33c73738edownload.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\c678e69d-4e3e-4969-85cb-01d33c73738edownload.jpg"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\images\\cart_thamb1.jpg",

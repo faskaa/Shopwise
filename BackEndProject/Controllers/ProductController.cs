@@ -30,7 +30,7 @@ namespace BackEndProject.Controllers
                 .Include(p=>p.ProductInformation).ThenInclude(p=>p.Information)
                 .Include(p => p.ProductCategories)
                 .ThenInclude(p=>p.Category)
-                .Include(t => (t as Product).Rating)
+                .Include(p => p.Rating)
                 .FirstOrDefault(p => p.Id == id)!;
 
             if (product == null) return NotFound();

@@ -1,4 +1,6 @@
-﻿<div class="main_content">
+﻿@model List<Wishlist>
+
+<div class="main_content">
 
     <!-- START SECTION SHOP -->
     <div class="section">
@@ -18,30 +20,18 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td class="product-thumbnail"><a href="#"><img src="assets/images/product_img1.jpg" alt="product1"></a></td>
-                                    <td class="product-name" data-title="Product"><a href="#">Blue Dress For Woman</a></td>
-                                    <td class="product-price" data-title="Price">$45.00</td>
-                                    <td class="product-stock-status" data-title="Stock Status"><span class="badge badge-pill badge-success">In Stock</span></td>
-                                    <td class="product-add-to-cart"><a href="#" class="btn btn-fill-out"><i class="icon-basket-loaded"></i> Add to Cart</a></td>
-                                    <td class="product-remove" data-title="Remove"><a href="#"><i class="ti-close"></i></a></td>
-                                </tr>
-                                <tr>
-                                    <td class="product-thumbnail"><a href="#"><img src="assets/images/product_img2.jpg" alt="product2"></a></td>
-                                    <td class="product-name" data-title="Product"><a href="#">Lether Gray Tuxedo</a></td>
-                                    <td class="product-price" data-title="Price">$55.00</td>
-                                    <td class="product-stock-status" data-title="Stock Status"><span class="badge badge-pill badge-success">In Stock</span></td>
-                                    <td class="product-add-to-cart"><a href="#" class="btn btn-fill-out"><i class="icon-basket-loaded"></i> Add to Cart</a></td>
-                                    <td class="product-remove" data-title="Remove"><a href="#"><i class="ti-close"></i></a></td>
-                                </tr>
-                                <tr>
-                                    <td class="product-thumbnail"><a href="#"><img src="assets/images/product_img3.jpg" alt="product3"></a></td>
-                                    <td class="product-name" data-title="Product"><a href="#">woman full sliv dress</a></td>
-                                    <td class="product-price" data-title="Price">$68.00</td>
-                                    <td class="product-stock-status" data-title="Stock Status"><span class="badge badge-pill badge-success">In Stock</span></td>
-                                    <td class="product-add-to-cart"><a href="#" class="btn btn-fill-out"><i class="icon-basket-loaded"></i> Add to Cart</a></td>
-                                    <td class="product-remove" data-title="Remove"><a href="#"><i class="ti-close"></i></a></td>
-                                </tr>
+                                @foreach (Wishlist wishlist in Model)
+                                {
+                                    <tr>
+                                        <td class="product-thumbnail"><a href="#"><img src="assets/images/product_img3.jpg" alt="product3"></a></td>
+                                        <td class="product-name" data-title="Product"><a href="#">@wishlist.Name</a></td>
+                                        <td class="product-price" data-title="Price">$68.00</td>
+                                        <td class="product-stock-status" data-title="Stock Status"><span class="badge badge-pill badge-success">In Stock</span></td>
+                                        <td class="product-add-to-cart"><a href="#" class="btn btn-fill-out"><i class="icon-basket-loaded"></i> Add to Cart</a></td>
+                                        <td class="product-remove" data-title="Remove"><a href="#"><i class="ti-close"></i></a></td>
+                                    </tr>
+                                    
+                                }
                             </tbody>
                         </table>
                     </div>
